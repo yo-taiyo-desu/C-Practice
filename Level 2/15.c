@@ -3,10 +3,11 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-double x,X;
+double x,X,rad;
 printf("Enter the angle : ");
 scanf("%lf",&x);
-X=2*pow(cos(x),2)-(sqrt(3)*sin(x)+(sin(x/2));
+rad=x*M_PI/180;
+X=2*pow(cos(rad),2)-(sqrt(3)*sin(rad))+(sin(rad/2));
 printf(" The answer is : %lf\n",X);
 return 0;
 }
