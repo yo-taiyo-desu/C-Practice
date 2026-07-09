@@ -9,13 +9,16 @@ printf("Enter the numbers : ");
 scanf("%f%f%f",&a,&b,&c);
 if(a==0){
 printf("Imaginary \n");
-break;
+return 0;
 }
-d=sqrt(b*b-4*a*c);
+d=(b*b-4*a*c);
 if(d<0){
 printf("Imaginary \n");
-x1=(-b+d)/2*a;
-x2=(-b-d)/2*a;
+return 0;
+}
+d=sqrt(d);
+x1=(-b+d)/(2*a);
+x2=(-b-d)/(2*a);
 printf("Root1= %f\n",x1);
 printf("Root2= %f\n",x2);
 return 0;
