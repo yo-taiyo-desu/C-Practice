@@ -3,15 +3,18 @@ A = Value when X is rounded up to the nearest integer
 B = Value when X is rounded down to the nearest integer
 C = Absolute value of X */
 #include<stdio.h>
+#include <math.h>
+#include <stdlib.h>
 int main(){
-double a;
+double a,C;
 int A,B;
 printf("Enter the number : ");
 scanf("%lf",&a);
 A=(int)ceil(a);
 B=(int)floor(a);
+C=fabs(a);
 printf(" A) %d \n",A);
 printf(" B) %d \n",B);
-printf(" C) %f \n",abs(a));
-return 0
-  }
+printf(" C) %lf \n",C);
+return 0;
+}
