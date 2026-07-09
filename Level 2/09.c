@@ -7,7 +7,7 @@ int main(){
 int a,b,c,X,Y,Z;
 printf("Enter the numbers : ");
 scanf("%d%d%d",&a,&b,&c);
-X=(a-b)/(3+c)*(2-1);
+X=a-(b/3)+c*2-1;
 Y=a-(b/(3+c)*2)-1;
 Z=a-((b/3)+c*2)-1;
 printf("X = %d\n",X);
