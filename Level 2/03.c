@@ -6,7 +6,7 @@ int main(){
   float a,b,p,q,X;
 printf("Enter the numbers : ");
 scanf("%f%f",&a,&b);
-p=((3.31*a*a)+(2.01*b*b*b);
+p=((3.31*a*a)+(2.01*b*b*b));
 q=((7.16*b*b)+(2.01*a*a*a));
 printf("X = %f\n",p/q);
 return 0;
