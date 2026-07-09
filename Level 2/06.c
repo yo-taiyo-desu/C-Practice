@@ -5,7 +5,7 @@ int main(){
 int a,b;
 printf("Enter 2 numbers : ");
 scanf("%d%d",&a,&b);
-printf("Multiplication : %d",a*=b);
-printf("Division : %d",a/=b);
+printf("Multiplication : %d\n",a*=b);
+printf("Division : %d\n",a/=b);
 return 0;
 }
