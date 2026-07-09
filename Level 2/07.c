@@ -16,7 +16,7 @@ printf("Assignment : %d assigned to a float produces %f\n",a,floatresult);
 //(b) Type casting
 intresult = (int)b;
 floatresult = (float)a;
-printf("Type Casting : (float) %d produces %f\n",a,intresult);
-printf("Type Casting : (int) %f produces %d\n",b,floatresult);
+printf("Type Casting : (float) %d produces %f\n",a,floatresult);
+printf("Type Casting : (int) %f produces %d\n",b,intresult);
 return 0;
 }
