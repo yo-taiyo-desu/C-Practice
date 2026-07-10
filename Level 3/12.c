@@ -25,7 +25,12 @@ else if(choice==3){
 printf("%f\n",a*b);
 }
 else if(choice==4){
+if(b==0){
+printf("Not divisible by Zero");
+}
+else{
 printf("%f\n",a/b);
+}
 }
 else
 printf("Invalid Choice");
