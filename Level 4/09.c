@@ -11,7 +11,7 @@ printf("%d ",i);
 sum1=sum1+i;
 }
 else{
-print("%d ",-i);
+printf("%d ",-i);
 sum2=sum2-i;
 }
 if(i<n){
