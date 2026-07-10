@@ -7,14 +7,14 @@ printf("Series upto : ");
 scanf("%d",&n);
 for(i=1;i<=n;i++){
 if(i%2!=0){
-printf("%d",i);
+printf("%d ",i);
 sum1=sum1+i;
 }
 else{
-print("%d",-i);
+print("%d ",-i);
 sum2=sum2-i;
 }
-if(i>n){
+if(i<n){
 printf(",");
 }
 }
