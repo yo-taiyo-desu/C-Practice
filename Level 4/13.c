@@ -6,10 +6,11 @@ int n,r,i,ncr,factn=1,factr=1,factnr=1;
 printf("Enter n : ");
 scanf("%d",&n);
 printf("Enter r : ");
+scanf("%d",&r);
 if(r>n){
 printf("Invalid");
+return 0;
 }
-scanf("%d",&r);
 for(i=1;i<=n;i++){
 factn=factn*i;
 }
