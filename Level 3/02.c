@@ -2,17 +2,17 @@
 */
 #include<stdio.h>
 int main(){
-double a;
+int a;
 printf("Enter a number : ");
-scanf("%lf",&a);
-if(a%2==0){
-printf("%lf is positive \n",a);
+scanf("%d",&a);
+if(a==0){
+printf("%d is Zero \n",a);
 }
-else if(a%2!=0){
-printf("%lf is negative \n",a);
+else if(a%2==0){
+printf("%d is Even \n",a);
 }
 else{
-printf("%lf is Zero \n",a);
+printf("%d is Odd \n",a);
 }
 return 0;
 }
