@@ -10,8 +10,9 @@ scanf("%d",&n);
 for(i=1;i<=n;i++){
 printf("%d^2*%d ",i,i+1);
 sum=sum+(i*i)*(i+1);
-if(i<n)
+if(i<n){
 printf("+");
+}
 }
 printf("\nSum is : %d \n",sum);
 return 0;
