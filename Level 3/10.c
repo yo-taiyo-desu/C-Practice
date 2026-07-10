@@ -30,5 +30,6 @@ printf("Not divisible by Zero\n");
 break;
 default:
 printf("Invalid Operator \n");
+}
 return 0;
 }
