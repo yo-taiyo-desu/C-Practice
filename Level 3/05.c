@@ -6,7 +6,7 @@ int main(){
 int x;
 printf("Enter the number : ");
 scanf("%d",&x);
-if(x>0&&log(x)==ceil(log(x))){
+if(x>0&&log2(x)==ceil(log2(x))){
 printf("%d is power of 2 \n",x);
 }
 else{
