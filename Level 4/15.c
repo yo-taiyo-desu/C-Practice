@@ -14,7 +14,7 @@ num2=r;
 }
 gcd=num1;
 lcm=(n1*n2)/gcd;
-printf("GCD is : %d\n",gcd);
-printf("LCM is : %d\n",lcm);
+printf("GCD of %d & %d is : %d\n",n1,n2,gcd);
+printf("LCM of %d & %d is : %d\n",n1,n2,lcm);
 return 0;
 }
